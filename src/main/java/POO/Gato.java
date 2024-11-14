@@ -14,7 +14,8 @@ public class Gato extends Animal {
         super(Pelo, Boca, Cola, Ojo, Patas);
     }
 
-    public void sonido(){
+    @Override
+    public void Sonido(){
         System.out.println("el gato maulla");
 }
 }

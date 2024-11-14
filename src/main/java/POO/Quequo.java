@@ -13,7 +13,9 @@ public class Quequo extends Animal{
     public Quequo(String Pelo, String Boca, String Cola, String Ojo, Integer Patas) {
         super(Pelo, Boca, Cola, Ojo, Patas);
     }
-    public void Quequo (){
+    
+    @Override
+    public void Sonido(){
         System.out.println("el quequo hace tac tac");
     }
 }
