@@ -8,11 +8,11 @@ package Clase20241116;
  *
  * @author USER
  */
-public class Laptop extends Producto {
+public class Laptod extends Producto {
     private String Pantalla;
     private String Teclado;
 
-    public Laptop(String Pantalla, String Teclado, String Color, String Marca, String Modelo) {
+    public Laptod(String Pantalla, String Teclado, String Color, String Marca, String Modelo) {
         super(Color, Marca, Modelo);
         this.Pantalla = Pantalla;
         this.Teclado = Teclado;

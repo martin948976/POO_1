@@ -167,16 +167,17 @@ public class frmTelevisor extends javax.swing.JFrame {
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         // TODO add your handling code here:
-        
-        //Agregando un objeto a la lista de Televisores
         lista.add(new Televisor(
                 txtPantalla.getText(),
                 txtSonido.getText(),
                 String.valueOf(cboColor.getselectedItem()),
                 String.valueOf(cboMarca.getselectedItem()),
-                txtModelo.getText())
-                
+               txtModelo.getText())
         );
+                
+        //Agregando un objeto a la lista de Televisores
+        
+               
         
     }//GEN-LAST:event_btnAceptarActionPerformed
 
