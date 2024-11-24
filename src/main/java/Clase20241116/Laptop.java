@@ -6,13 +6,13 @@ package Clase20241116;
 
 /**
  *
- * @author USER
+ * @author Martin Sagastume
  */
-public class Laptod extends Producto {
+public class Laptop extends Producto{
     private String Pantalla;
     private String Teclado;
 
-    public Laptod(String Pantalla, String Teclado, String Color, String Marca, String Modelo) {
+    public Laptop(String Pantalla, String Teclado, String Color, String Marca, String Modelo) {
         super(Color, Marca, Modelo);
         this.Pantalla = Pantalla;
         this.Teclado = Teclado;
@@ -33,8 +33,6 @@ public class Laptod extends Producto {
     public void setTeclado(String Teclado) {
         this.Teclado = Teclado;
     }
-    
-    
     
     
 }

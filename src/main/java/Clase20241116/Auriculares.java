@@ -8,22 +8,14 @@ package Clase20241116;
  *
  * @author Martin Sagastume
  */
-public class Televisor extends Producto{
-    private String Pantalla;
+public class Auriculares extends Producto {
     private String Sonido;
+    private String Rendimiento;
 
-    public Televisor(String Pantalla, String Sonido, String Color, String Marca, String Modelo) {
+    public Auriculares(String Sonido, String Rendimiento, String Color, String Marca, String Modelo) {
         super(Color, Marca, Modelo);
-        this.Pantalla = Pantalla;
         this.Sonido = Sonido;
-    }
-
-    public String getPantalla() {
-        return Pantalla;
-    }
-
-    public void setPantalla(String Pantalla) {
-        this.Pantalla = Pantalla;
+        this.Rendimiento = Rendimiento;
     }
 
     public String getSonido() {
@@ -32,6 +24,14 @@ public class Televisor extends Producto{
 
     public void setSonido(String Sonido) {
         this.Sonido = Sonido;
+    }
+
+    public String getRendimiento() {
+        return Rendimiento;
+    }
+
+    public void setRendimiento(String Rendimiento) {
+        this.Rendimiento = Rendimiento;
     }
     
     

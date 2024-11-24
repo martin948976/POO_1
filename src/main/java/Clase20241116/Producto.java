@@ -6,12 +6,12 @@ package Clase20241116;
 
 /**
  *
- * @author USER
+ * @author Martin Sagastume
  */
 public class Producto {
     private String Color;
     private String Marca;
-    private String Modelo; 
+    private String Modelo;
 
     public Producto(String Color, String Marca, String Modelo) {
         this.Color = Color;
@@ -42,7 +42,6 @@ public class Producto {
     public void setModelo(String Modelo) {
         this.Modelo = Modelo;
     }
-    
-    
+     
     
 }
